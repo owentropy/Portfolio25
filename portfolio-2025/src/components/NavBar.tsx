@@ -25,9 +25,9 @@ const NavBarContainer = styled.div`
 	font-size: 24px;
 	font-weight: 500;
 	letter-spacing: 0.1em;
+	z-index: 10;
 
 	@media (max-width: 600px) {
-		//20 25
 		font-size: 16px;
 	}
 `;

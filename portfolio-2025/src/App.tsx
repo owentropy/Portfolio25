@@ -1,10 +1,12 @@
 import styled from "styled-components";
 import NavBar from "./components/NavBar";
+import Panel from "./components/Panel";
 
 function App() {
 	return (
 		<AppContainer>
 			<NavBar />
+			<Panel />
 		</AppContainer>
 	);
 }
